@@ -71,7 +71,7 @@ ogg_uint32_t oc_cpu_flags_get(void){
   return flags;
 }
 
-#elif defined(__linux__)
+#elif defined(__linux__) || (__3DS__)
 # include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
